@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorbackground">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etnameUser"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:background="#fff"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etsurnamUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:background="#fff"
+        android:hint="Enter Surname"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etdteofbirthUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:background="#fff"
+        android:hint="Enter date of birthd            hh/mm/gg"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etfisclcodeUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:background="#fff"
+        android:hint="Enter fisclcode"
+        android:maxLength="16"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ettypeUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:background="#fff"
+        android:hint="Enter type"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etemailUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:background="#fff"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:singleLine="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etpasswordUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:background="#fff"
+        android:hint="Enter password"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:singleLine="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPostUser"
+        android:text="Register"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

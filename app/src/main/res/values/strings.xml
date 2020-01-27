@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Steve Jobs Class Managing</string>
+    <string name="steve_jobs">Steve Jobs class managing</string>
+    <string name="username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_new">Click here for register</string>
+    <string name="error_invalid_email">This email is invalid</string>
+    <string name="error_invalid_password">Please enter a minimum password of 3 characters</string>
+    <string name="error_incorrect_password">Plese enter a correct password</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="email_error">Please enter your email</string>
+    <string name="fiscalCode_error">Please enter your fiscalCode</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="surname_error">Please enter your surname</string>
+    <string name="dateOfBirth_error">Please enter your dateOfBirth</string>
+    <string name="type_error">Please enter a type</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+</resources>

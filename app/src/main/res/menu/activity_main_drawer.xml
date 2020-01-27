@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout"/>
+        <item android:title="Courses">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_add_course"
+                        android:icon="@drawable/ic_add"
+                        android:title="Add Course"/>
+                    <item
+                        android:id="@+id/nav_view_courses_list"
+                        android:icon="@drawable/ic_menu_activity"
+                        android:title="View Courses List"/>
+                </group>
+            </menu>
+        </item>
+        <item android:title="Users">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_add_user"
+                        android:icon="@drawable/ic_add"
+                        android:title="Add Users"/>
+                    <item
+                        android:id="@+id/nav_view_teacher_list"
+                        android:icon="@drawable/ic_account"
+                        android:title="View Teacher List"/>
+                    <item
+                        android:id="@+id/nav_view_student_list"
+                        android:icon="@drawable/ic_account"
+                        android:title="View Student List"/>
+                    <item
+                        android:id="@+id/nav_view_admin_list"
+                        android:icon="@drawable/ic_account"
+                        android:title="View Admin List"/>
+                    <item
+                        android:id="@+id/nav_view_users_list"
+                        android:icon="@drawable/ic_account"
+                        android:title="View User List"/>
+                </group>
+            </menu>
+        </item>
+        <item android:title="Subjects">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_add_subject"
+                        android:icon="@drawable/ic_add"
+                        android:title="Add Subject"/>
+                    <item
+                        android:id="@+id/nav_view_subject_list"
+                        android:icon="@drawable/ic_subjects"
+                        android:title="View Subject List"/>
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="Link">
+            <menu>
+                <item
+                    android:id="@+id/nav_website"
+                    android:icon="@drawable/logo"
+                    android:title="Stevejobs Website" />
+                <item
+                    android:id="@+id/nav_github"
+                    android:icon="@drawable/ic_github"
+                    android:title="Github Repository" />
+                <item
+                    android:id="@+id/nav_slack"
+                    android:icon="@drawable/ic_slack"
+                    android:title="Slack Channel" />
+            </menu>
+        </item>
+</menu>

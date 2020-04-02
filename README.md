@@ -9,9 +9,13 @@ This product is a management application developed by five of Steve Jobs Academy
 This project was generated with [Android studio](https://developer.android.com/studio?gclid=Cj0KCQjwmpb0BRCBARIsAG7y4zbuHXssZ1KH7rWsVGNI2xHxWAY20wqwJJ37m7E4Qw8R---0UlVZkpAaAu8FEALw_wcB&gclsrc=aw.ds) version: 3.5.3.
 
 ## The following list of images shows how the app is composed
-
-<img align="left" width="320" alt="login" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/login.png">
-<img  width="320" alt="menu" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/menu.png">
+<div>
+  <img align="left" width="320" alt="login" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/login.png">
+  <img  width="320" alt="menu" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/menu.png">
+    </div>
 <br/>
-<img align="left" width="320" alt="subjects" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/subjects.png">
-<img width="320" alt="student_detailes" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/student_detailes.png">
+<br/>
+<div>
+  <img align="left" width="320" alt="subjects" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/subjects.png">
+  <img width="320" alt="student_detailes" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/student_detailes.png">
+  </div>

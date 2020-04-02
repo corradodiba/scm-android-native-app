@@ -25,7 +25,6 @@ public class UserDetailActivity extends AppCompatActivity {
                 actionBar.setDisplayHomeAsUpEnabled(true);
             }
 
-        String _id  = getIntent().getExtras().getString("user__id");
         String fiscalCode = getIntent().getExtras().getString("user_fiscalCode");
         String name = getIntent().getExtras().getString("user_name") ;
         String surname = getIntent().getExtras().getString("user_surname");
@@ -35,7 +34,6 @@ public class UserDetailActivity extends AppCompatActivity {
 
         CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsingtoolbar_id);
         collapsingToolbarLayout.setTitleEnabled(true);
-        _id_tv = findViewById( R.id._id );
         fiscalCode_tv = findViewById(R.id.fiscalCode);
         name_tv = findViewById(R.id.name);
         surname_tv = findViewById(R.id.surname);
@@ -43,7 +41,6 @@ public class UserDetailActivity extends AppCompatActivity {
         type_tv = findViewById(R.id.type);
         //ImageView img = findViewById(R.id.aa_thumbnail);
 
-        _id_tv.setText(_id);
         fiscalCode_tv.setText(fiscalCode);
         name_tv.setText(name);
         surname_tv.setText(surname);

@@ -2,6 +2,7 @@ package com.demo.stevejobsclassmanaging;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,6 +14,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -28,7 +30,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
@@ -39,6 +44,9 @@ public class GetSubjectActivity extends MenuActivity {
     private List<Subject> lstSubjects;
     private RecyclerView recyclerView;
     private ProgressBar bar;
+    private SharedPreferences sharedpreferences;
+    private static final  String SHARED_PREF_NAME = "stevejobsclassmanaging";
+    private static final  String KEY_TOKEN = "Keytoken";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -69,7 +77,7 @@ public class GetSubjectActivity extends MenuActivity {
                     try {
                         jsonObject = response.getJSONObject(i);
                         Subject subject = new Subject();
-                        subject.set_id(jsonObject.getString("_id"));
+                        subject.set_id(jsonObject.getString("id"));
                         subject.setName(jsonObject.getString("name"));
                         subject.setHours(jsonObject.getString("hours"));
                         lstSubjects.add( subject );
@@ -90,7 +98,16 @@ public class GetSubjectActivity extends MenuActivity {
                 error.printStackTrace();
                 Toast.makeText( GetSubjectActivity.this, "Network failure", Toast.LENGTH_SHORT).show();
             }
-        });
+        }){
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("Content-Type", "application/json; charset=UTF-8");
+                sharedpreferences = getSharedPreferences(SHARED_PREF_NAME, MODE_PRIVATE);
+                String token = sharedpreferences.getString( KEY_TOKEN, null );
+                params.put("Authorization", token);
+                return params;
+            }};
 
         requestQueue = Volley.newRequestQueue( GetSubjectActivity.this);
         requestQueue.add(request);

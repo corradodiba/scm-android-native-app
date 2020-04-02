@@ -77,7 +77,7 @@ public class GetTeacherActivity extends MenuActivity {
                         jsonObject = response.getJSONObject(i);
                         User user = new User();
                         user.setName(jsonObject.getString("name"));
-                        user.set_id(jsonObject.getString("_id"));
+                        user.set_id(jsonObject.getString("id"));
                         user.setFiscalCode(jsonObject.getString("fiscalCode"));
                         user.setSurname(jsonObject.getString("surname"));
                         user.setDateOfBirth(jsonObject.getString("dateOfBirth"));

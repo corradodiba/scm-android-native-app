@@ -10,12 +10,12 @@ This project was generated with [Android studio](https://developer.android.com/s
 
 ## The following list of images shows how the app is composed
 <div>
-  <img align="left" width="320" alt="login" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/login.png">
-  <img  width="320" alt="menu" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/menu.png">
+  <img align="left" width="320" alt="login" src="https://github.com/corradodiba/scm-android-native-app/blob/master/assets/login.png">
+  <img  width="320" alt="menu" src="https://github.com/corradodiba/scm-android-native-app/blob/master/assets/menu.png">
     </div>
 <br/>
 <br/>
 <div>
-  <img align="left" width="320" alt="subjects" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/subjects.png">
-  <img width="320" alt="student_detailes" src="https://github.com/corradodiba/scm-android-native-app/blob/develop/assets/student_detailes.png">
+  <img align="left" width="320" alt="subjects" src="https://github.com/corradodiba/scm-android-native-app/blob/master/assets/subjects.png">
+  <img width="320" alt="student_detailes" src="https://github.com/corradodiba/scm-android-native-app/blob/master/assets/student_detailes.png">
   </div>

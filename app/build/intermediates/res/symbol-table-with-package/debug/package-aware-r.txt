@@ -1070,7 +1070,6 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
-id _id
 id _idSub
 id aa_thumbnail
 id action0

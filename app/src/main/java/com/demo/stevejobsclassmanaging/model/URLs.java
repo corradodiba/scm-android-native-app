@@ -2,7 +2,7 @@ package com.demo.stevejobsclassmanaging.model;
 
 public class URLs {
 
-    private static final String ROOT_URL = "http://151.97.115.230:3000";
+    private static final String ROOT_URL = "http://192.168.43.156:3000";
 
     public static final String URL_LOGIN = ROOT_URL + "/auth/login";
     public static final String URL_SIGNUP= ROOT_URL + "/auth/signup";

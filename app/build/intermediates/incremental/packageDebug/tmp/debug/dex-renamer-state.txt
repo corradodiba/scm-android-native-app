@@ -1,7 +1,7 @@
-#Wed Jan 08 15:59:53 CET 2020
-base.0=/Users/zagarellagabriele/Desktop/clone/stevejobs-class-managing/android/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+#Fri Apr 03 01:01:02 CEST 2020
+base.0=/Users/zagarellagabriele/Desktop/cartella senza titolo/scm-android-native-app/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/zagarellagabriele/Desktop/clone/stevejobs-class-managing/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+base.1=/Users/zagarellagabriele/Desktop/cartella senza titolo/scm-android-native-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
